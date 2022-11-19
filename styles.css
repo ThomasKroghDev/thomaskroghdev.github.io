@@ -292,6 +292,8 @@ textarea::placeholder {
 }
 
 .submit-button {
+    display: flex;
+    justify-content: center;
     background-color: #00b9b9;
     width: 90%;
     border-radius: 5px;
@@ -301,7 +303,7 @@ textarea::placeholder {
     font-family: 'Lato';
     color: #fff;
     font-size: 24px;
-    margin: 10px auto;
+    margin: 15px auto;
 }
 
 .submit-button:hover {
