@@ -26,6 +26,7 @@ footer, header, hgroup, menu, nav, section {
 }
 
 body {
+  background-color: #89ACC2;
   line-height: 1;
 }
 
@@ -139,4 +140,29 @@ p, ul, ol {
 }
 .navbar .navlink:first-child {
   justify-content: flex-start;
+}
+
+.error-popup {
+  background-color: red;
+  color: #F6F6F5;
+  height: 50px;
+  width: 100%;
+}
+
+.box {
+  background-color: #C6A680;
+  height: 50px;
+  width: 36.63px;
+  border-radius: 5px;
+  box-shadow: 0px 30px 40px -20px #434874, -2px -2px 8px 2px rgba(255, 255, 255, 0.1), 2px 2px 6px 3px rgba(0, 0, 0, 0.4);
+  margin: 0 auto;
+}
+
+.big-box {
+  background-color: #6060AD;
+  height: 200px;
+  width: 146.52px;
+  border-radius: 5px;
+  box-shadow: 0px 30px 40px -20px #434874, -2px -2px 8px 2px rgba(255, 255, 255, 0.1), 2px 2px 6px 3px rgba(0, 0, 0, 0.4);
+  margin: 0 auto;
 }/*# sourceMappingURL=styles.css.map */
