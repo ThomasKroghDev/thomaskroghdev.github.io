@@ -151,18 +151,37 @@ p, ul, ol {
 
 .box {
   background-color: #C6A680;
-  height: 50px;
-  width: 36.63px;
+  height: 200px;
+  width: 146.52px;
   border-radius: 5px;
   box-shadow: 0px 30px 40px -20px #434874, -2px -2px 8px 2px rgba(255, 255, 255, 0.1), 2px 2px 6px 3px rgba(0, 0, 0, 0.4);
   margin: 0 auto;
 }
 
 .big-box {
-  background-color: #6060AD;
+  background-color: #C6A680;
   height: 200px;
   width: 146.52px;
   border-radius: 5px;
   box-shadow: 0px 30px 40px -20px #434874, -2px -2px 8px 2px rgba(255, 255, 255, 0.1), 2px 2px 6px 3px rgba(0, 0, 0, 0.4);
   margin: 0 auto;
+}
+
+.test {
+  color: #F6F6F5;
+}
+.test:hover {
+  color: #babab2;
+}
+
+.ghost {
+  width: 100px;
+  height: 100px;
+  border-radius: 25%;
+  background-color: white;
+  filter: blur(1rem);
+  opacity: 50%;
+}
+.ghost p {
+  font-size: 36px;
 }/*# sourceMappingURL=styles.css.map */
